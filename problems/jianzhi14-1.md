@@ -21,16 +21,17 @@
 ## 解答1
 绳子按照 $x$ 长度等分为 $a$ 段，有$n=ax$,乘积为$x^a=x^{\frac{1}{x}n}$。于是，求乘积的极值,也就是求导为零可以写为
 
-```math
+$$
 \begin{aligned}
-(x^a)' &= 0 \\
-(x^{\frac{1}{x}})' &= 0 \quad\quad \text{n is constant} \\
-({\frac{1}{x}}\ln x)'&= 0 \quad\quad \text{take log} \\
-\frac{1}{x^2}-\frac{\ln x}{x^2} &= 0 \quad\quad \text{derivative}\\
+(x^a)' &= 0 \quad\quad \text{导数为0} \\
+(x^{\frac{1}{x}})' &= 0 \quad\quad \text{n是常数} \\
+({\frac{1}{x}}\ln x)'&= 0 \quad\quad \text{取log} \\
+\frac{1}{x^2}-\frac{\ln x}{x^2} &= 0 \quad\quad \text{求导}\\
 \ln x &= 1 \\
 x & = e
 \end{aligned}
-```
+$$
+
 因为$x$必须取整数，我们取最接近的3，i.e. 把绳子尽可能切为长度为3的片段。
 对于不能被3整除的情况，我们根据余数分类讨论。
 余数为1时：取回一个3，变为2*2
