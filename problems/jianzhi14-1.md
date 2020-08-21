@@ -23,11 +23,11 @@
 
 $$
 \begin{aligned}
-(x^a)' &= 0 \quad\quad \text{导数为0} \\
-(x^{\frac{1}{x}})' &= 0 \quad\quad \text{n是常数} \\
-({\frac{1}{x}}\ln x)'&= 0 \quad\quad \text{取log} \\
-\frac{1}{x^2}-\frac{\ln x}{x^2} &= 0 \quad\quad \text{求导}\\
-\ln x &= 1 \\
+(x^a)' &= 0 \quad\quad \text{导数为0} \\\\
+(x^{\frac{1}{x}})' &= 0 \quad\quad \text{n是常数} \\\\
+({\frac{1}{x}}\ln x)'&= 0 \quad\quad \text{取log} \\\\
+\frac{1}{x^2}-\frac{\ln x}{x^2} &= 0 \quad\quad \text{求导}\\\\
+\ln x &= 1 \\\\
 x & = e
 \end{aligned}
 $$
