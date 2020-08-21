@@ -24,9 +24,9 @@
 ```math
 \begin{aligned}
 (x^a)' &= 0 \\
-(x^{\frac{1}{x}})' &= 0 \quad\quad n是常数 \\
-({\frac{1}{x}}\ln x)'&= 0 \quad\quad 取log \\
-\frac{1}{x^2}-\frac{\ln x}{x^2} &= 0 \quad\quad 求导 \\
+(x^{\frac{1}{x}})' &= 0 \quad\quad \text{n is constant} \\
+({\frac{1}{x}}\ln x)'&= 0 \quad\quad \text{take log} \\
+\frac{1}{x^2}-\frac{\ln x}{x^2} &= 0 \quad\quad \text{derivative}\\
 \ln x &= 1 \\
 x & = e
 \end{aligned}
