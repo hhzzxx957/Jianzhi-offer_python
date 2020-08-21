@@ -17,15 +17,15 @@
 0 <= 节点个数 <= 5000
 ```
 
-## 方法
+## 解答
 * 在前序遍历里我们有[根，左，右]，于是可以得到根节点。
 * 然后根据根节点（用哈希表查找），从中序遍历[左，右，根]中得到左右子树的个数。
 * 构建in order的当前的根为节点
 * 通过左右子树pre_order,in_left,in_right(都是指index)的关系构建root.left, root.right
 * 递归直到中序遍历的list为空
 
+初始化dictionary O(N). 递归建立N个节点，O(N)
 时间复杂度: O(N), 空间复杂度: O(N)
-初始化dictionary O(N). 递归
 ```python
 # Definition for a binary tree node.
 # class TreeNode:

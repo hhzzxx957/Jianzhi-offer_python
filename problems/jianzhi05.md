@@ -12,7 +12,7 @@
 0 <= s 的长度 <= 10000
 ```
 
-## 方法
+## 解答
 ...
 Python中string是不可变immutable的。
 用一个list来存储结果。
