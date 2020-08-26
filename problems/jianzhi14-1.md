@@ -55,6 +55,7 @@ class Solution:
 dp[i] = max(dp[i], (i - j) * j, j * dp[i - j])
 ```
 可以这么理解，右边dp[i]项的作用是保证不同剪法取最大的那个。(i-j)*i项是从j剪然后不往下剪了，j * dp[i - j]项是接着还往下剪。
+
 时间复杂度：O(N<sup>2</sup>), 空间复杂度: O(N)
 ```python
 class Solution:
