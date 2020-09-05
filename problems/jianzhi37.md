@@ -17,7 +17,7 @@
 ```
 
 ## 解答
-BST遍历，用队列，注意输出格式。deserialize用相似的方法，特殊处理'null'。
+bfs遍历，用队列，注意输出格式。deserialize用相似的方法，特殊处理'null'。
 
 时间复杂度：O(N), 空间复杂度: O(N)
 ```python

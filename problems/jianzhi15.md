@@ -22,7 +22,7 @@
 ```
 
 ## 解答
-用bit manipulation 来提高运算速度。
+用位运算 bit manipulation 来提高运算速度。
 
 时间复杂度：log<sub>2</sub>n, 空间复杂度: O(1)
 ```python
